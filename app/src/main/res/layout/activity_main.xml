@@ -8,9 +8,17 @@
     android:id="@+id/drawer"
     tools:context=".MainActivity">
 
+    <FrameLayout
+        android:orientation="vertical"
+        android:id="@+id/flcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
 
     <com.google.android.material.navigation.NavigationView
         app:headerLayout="@layout/header"
+        android:id="@+id/nv"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:background="#ffffff"
